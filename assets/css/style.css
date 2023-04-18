@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+background-color:rgb(7, 7, 61);
+}
+
+.logoTitanic{
+    width: 300px;
+    padding: 30px;
+}
+
+
+ul,li{
+list-style: none;
+padding: 15px;
+padding-top: 23px;
+align-items: center;
+color: #cca518;
+font-size: 20px;
+}
+
+li:hover{
+    text-decoration: overline;  
+}
+
+.divAbsolute{
+    position: absolute;
+    top: 60vh;
+    right: 60vh;
+    left: 60vh;
+    background-color: aliceblue;
+    border-radius: 25px;
+    height: 50vh;
+}
+
+.titulo{
+    color: #cca518;
+    padding-top: 25px;
+}
+
+p{
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+button{
+    background-color: #cca518;
+    color: aliceblue;
+    border-radius: 10px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+button:hover{
+    background-color:rgb(7, 7, 61) ;
+    transition: all 1s;
+}
+
+.imgBackground{
+    width: 100%;
+}
+
+.flutuar {
+    animation: flutuar 2s ease-in-out infinite;
+  }
+  
+  @keyframes flutuar {
+    0% {
+      transform: translatey(0px);
+    }
+    50% {
+      transform: translatey(-15px);
+    }
+    100% {
+      transform: translatey(0px);
+    }
+  }    
+
+footer{
+    background-color: rgb(7, 7, 61) ;
+}
+
+.logoTitanicFooter{
+    width: 200px;
+    padding: 20px;
+}
